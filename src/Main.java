@@ -36,18 +36,18 @@ public class Main {
 
 //        Task 1
 
-        int year = 2025;
+        int year = 2024;
         checkingLeapYear(year);
 
 //        Task 2
 
-        int clientOS = 1;
+        int clientOS = 0;
         int clientDeviceYear = 2025;
         checkingOS(clientOS, clientDeviceYear);
 
 //        Task 3
 
-        int deliveryDistance = 87;
+        int deliveryDistance = 48;
         int deliveryDays = calculatingDistance(deliveryDistance);
         if (deliveryDays == -1) {
             System.out.println("Доставки нет");
